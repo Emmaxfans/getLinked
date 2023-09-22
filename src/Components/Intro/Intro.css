@@ -1,0 +1,88 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    background-color: #140D27;
+    padding: 50px 0;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.intro1{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+
+.intro1 img:nth-child(1){
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 18px;
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.intro1 img:nth-child(2){
+    height: 280px;
+}
+
+.intro1 img:nth-child(3){
+    position: relative;
+    top: 250px;
+    left: 20px;
+    height: 18px;
+    animation: blink 0.5s infinite alternate;
+}
+
+.intro2{
+    display: flex;
+    width: 50%;
+}
+
+.intro2-sub{
+    width: 500px;
+}
+
+.intro2-sub h2{
+color: #FFF;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+}
+
+.intro2-sub span{
+    color: #D434FE;;
+}
+
+.intro2-sub p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+.intro2 img{
+     position: relative;
+
+    top: 40px;
+    right: 25px;
+    height: 18px;
+    flex-shrink: 0;
+    animation: blink 0.5s infinite alternate;
+}
+
+@media screen and (max-width: 600px){
+    .intro{
+        display: block;
+    }
+}

@@ -16,7 +16,7 @@ const Landing = () => {
 			<Body2 />
 			{/* <Faq /> */}
 			{/* <Privacy /> */}
-			{/* <Footer /> */}
+			<Footer />
 		</>
 	);
 };

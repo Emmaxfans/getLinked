@@ -1,18 +1,18 @@
-.intro{
+.bodyb{
     display: flex;
     flex-direction: row;
     background-color: #140D27;
     padding: 50px 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.intro1{
-    display: flex;
-    width: 50%;
+.bodyb1{
+    /* display: flex; */
+    /* width: 50%; */
     justify-content: center;
 }
 
 
-.intro1 img:nth-child(1){
+.bodyb1 img:nth-child(1){
     position: relative;
     top: 20px;
     left: 20px;
@@ -29,29 +29,30 @@
     }
 }
 
-.intro1 img:nth-child(2){
+.bodyb1 img:nth-child(2){
     height: 280px;
 }
 
-.intro1 img:nth-child(3){
+.bodyb1 img:nth-child(3){
     position: relative;
-    top: 250px;
-    left: 20px;
+    /* top: 250px; */
+    right: 10px;
     height: 18px;
     animation: blink 0.5s infinite alternate;
 }
 
-.intro2{
+.bodyb2{
     display: flex;
     /* width: 50%; */
-    /* padding: 30px; */
+    padding: 30px 100px;
 }
 
-.intro2-sub{
+.bodyb2-sub{
     width: 500px;
+    /* justify-content: center; */
 }
 
-.intro2-sub h2{
+.bodyb2-sub h2{
 color: #FFF;
 font-family: Clash Display;
 font-size: 32px;
@@ -59,11 +60,11 @@ font-style: normal;
 font-weight: 700;
 }
 
-.intro2-sub span{
+.bodyb2-sub span{
     color: #D434FE;;
 }
 
-.intro2-sub p{
+.bodyb2-sub p{
     color: #FFF;
     font-family: Montserrat;
     font-size: 14px;
@@ -73,7 +74,7 @@ font-weight: 700;
     line-height: 27.5px;
 }
 
-.intro2 img{
+.bodyb2 img{
      position: relative;
 
     top: 40px;
@@ -84,24 +85,30 @@ font-weight: 700;
 }
 
 @media screen and (max-width: 600px){
-    .intro{
+    .bodyb{
         display: block;
     }
 
-    .intro1{
+    .bodyb1{
+        display: flex;
+    }
+
+    .bodyb2{
+        /* display: flex; */
+    /* width: 100%; */
+    padding: 25px;
+    }
+
+    .bodyb2-sub{
         width: 100%;
+        /* padding: 0 5px; */
     }
 
-    .intro2{
-        width: 100%;
-    }
-
-    .intro2-sub{
-        /* width: 100%; */
-        padding: 0 25px;
-    }
-
-    .intro2-sub h2{
+    .bodyb2-sub h2{
        text-align: center;
+        }
+
+        .bodyb2-br{
+            display: none;
         }
 }

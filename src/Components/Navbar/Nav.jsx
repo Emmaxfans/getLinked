@@ -18,7 +18,7 @@ const Nav = () => {
   };
 
   return (
-    <>
+    <div className="navbar-body">
       <div className="navbar-container">
         <div className={`navbar ${isOpen ? "responsive" : ""}`}>
           <img id="getlinkedicon" src={getLinked} alt="getLinked" />
@@ -39,7 +39,7 @@ const Nav = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

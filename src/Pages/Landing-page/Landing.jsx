@@ -1,3 +1,4 @@
+import Body2 from "../../Components/Body/Body2";
 import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
 import Hero from "../../Components/Hero/Hero";
@@ -10,11 +11,12 @@ const Landing = () => {
   return (
     <>
       <Nav />
-      <Hero />
+      {/* <Hero /> */}
       <Intro />
-      <Faq />
-      <Privacy />
-      <Footer />
+      <Body2 />
+      {/* <Faq /> */}
+      {/* <Privacy /> */}
+      {/* <Footer /> */}
     </>
   );
 };

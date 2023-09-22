@@ -85,4 +85,21 @@ font-weight: 700;
     .intro{
         display: block;
     }
+
+    .intro1{
+        width: 100%;
+    }
+
+    .intro2{
+        width: 100%;
+    }
+
+    .intro2-sub{
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .intro2-sub h2{
+       text-align: center;
+        }
 }

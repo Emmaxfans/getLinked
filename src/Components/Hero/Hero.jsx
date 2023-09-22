@@ -1,5 +1,5 @@
 import "./Hero.css";
-import purple_bg from "../../Assets/Icons/purple-lens-flare.svg";
+import purple_bg from "../../Assets/Icons/purple-lens.svg";
 import star3 from "../../Assets/Icons/star3.svg";
 import star4 from "../../Assets/Icons/star4.svg";
 import vector4 from "../../Assets/Icons/vector4.svg";

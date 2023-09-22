@@ -1,6 +1,6 @@
 .bodyb{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     background-color: #140D27;
     padding: 50px 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -85,11 +85,13 @@ font-weight: 700;
 
 @media screen and (max-width: 600px){
     .bodyb{
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     .bodyb1{
         display: flex;
+        width: 100%;
     }
 
     .bodyb2{

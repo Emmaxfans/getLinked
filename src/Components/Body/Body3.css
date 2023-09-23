@@ -76,7 +76,7 @@ font-weight: 700;
     color: #FFF;
     font-family: Montserrat;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-style: normal;
     font-weight: 700;
     /* line-height: 27.5px; */
@@ -105,12 +105,26 @@ font-weight: 700;
     }
 
     .bodyc2-sub{
-        /* width: 100%; */
-        padding: 0 25px;
+        width: fit-content;
+        text-align: center;
+        padding: 0 15px;
     }
 
     .bodycb h2{
        text-align: center;
+        }
+
+        .bodyc2-sub p{
+            font-size: 16px;
+            margin-top: 25px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        .bodyc1 img:nth-child(3){
+            margin-right: 0px;
+            width: 300px;
+            z-index: 999;
         }
 
         .bodyc1-bg{

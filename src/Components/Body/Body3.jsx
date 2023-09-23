@@ -53,7 +53,9 @@ const Body3 = () => {
 							including deadlines, use of specific technologies or APIs, and any
 							other competition-specific requirements.
 						</p>
+						<button>Read More</button>
 					</div>
+
 					<img src={star4} alt="big-idea" />
 				</div>
 			</div>

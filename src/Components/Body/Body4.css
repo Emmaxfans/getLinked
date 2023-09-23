@@ -1,0 +1,161 @@
+.bodyd{
+    display: flex;
+    /* flex-direction: row; */
+    background-color: #140D27;
+    padding: 50px 0;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bodyd1{
+    display: flex;
+    width: 50%;
+    padding: 30px 30px 30px 120px;
+}
+
+.bodyd1-sub{
+    /* width: 500px; */
+    color: #FFF;
+    /* justify-content: center; */
+}
+
+
+
+
+.bodyd1-sub h2{
+color: #FFF;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+}
+
+.bodyd1-sub span{
+    color: #D434FE;
+}
+
+.bodyd1-sub p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+.bodyd1 img{
+    position: relative;
+    top: -15px;
+    left: 0px;
+    height: 16px;
+    animation: blink 0.5s infinite alternate;
+}
+
+
+.bodyd2{
+    /* display: flex; */
+    width: 50%;
+    /* justify-content: center; */
+}
+
+
+.bodyd2 img:nth-child(1){
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 18px;
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bodyd2 img:nth-child(1){
+      position: relative;
+    top: 250px;
+    right: 10px;
+    height: 18px;
+    animation: blink 0.5s infinite alternate;
+}
+
+.bodyd2 img:nth-child(2){
+    position: relative;
+  top: 250px;
+  right: 10px;
+  height: 18px;
+  animation: blink 0.5s infinite alternate;
+}
+
+.bodyd2 img:nth-child(3){
+    width: 300px;
+    margin: auto;
+  
+}
+
+.bodyd2 img:nth-child(4){
+    position: relative;
+  top: 250px;
+  right: 10px;
+  height: 18px;
+  animation: blink 0.5s infinite alternate;
+}
+
+
+
+/* .bodyd2 img:nth-child(1){
+     position: relative;
+
+    top: 40px;
+    right: 25px;
+    height: 18px;
+    flex-shrink: 0;
+    animation: blink 0.5s infinite alternate;
+} */
+
+
+
+@media screen and (max-width: 600px){
+    .bodyd{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bodyd2{
+        display: flex;
+        width: 100%;
+    }
+
+    .bodyd1 {
+        display: block;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .bodyd1-sub{
+        /* width: 100%; */
+        padding: 0 35px;
+    }
+
+    .bodyd1-sub h2{
+       text-align: center;
+        }
+
+        .bodyd1-br{
+            display: none;
+        }
+
+        .bodyd1 img {
+            /* position: relative; */
+            top: 0px;
+            left: 80px;
+            height: 16px;
+            /* animation: blink 0.5s infinite alternate; */
+        }
+}

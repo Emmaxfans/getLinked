@@ -1,0 +1,62 @@
+:root {
+    --padding: 16px;
+  }
+  
+  details {
+    /* padding: 0 var(--padding); */
+    /* box-shadow: inset 0 0 0 2px; */
+    /* border-radius: 2px; */
+    /* border: none; */
+  }
+
+  hr{
+    border: 1px solid #FFFFFF2E;
+  }
+
+  .collapse-hr{
+   background-color: #d434fe;
+  }
+ 
+  details[open] {
+    padding-bottom: var(--padding);
+  }
+  
+  details > summary {
+    display: flex;
+    padding: 18px 0px;
+    /* margin: 0 calc(var(--padding) * -1); */
+    /* border-radius: 4px; */
+     /* box-shadow: inset 0 0 0 2px; */
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    list-style: none; /* Hides the default arrow */
+  }
+  
+  /* Adds an icon when the content is closed
+  details[open] > summary {
+    box-shadow: 0 1px;... */
+  details > summary::after {
+    content: "+";
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+  }
+  /* ...and switches it when it is open */
+  details[open] > summary::after {
+    content: "-";
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+  }
+  /* Removes the ugly default arrow on Chrome */
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+  

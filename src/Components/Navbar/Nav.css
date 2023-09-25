@@ -1,17 +1,19 @@
 /* Navbar styles */
 
-.nav-container {
+.nav-body {
     font-family: montserrat;
+    /* z-index: 99; */
   }
   
   .navbar {
-    background-color: #333;
+    /* background-color: #333; */
     display: flex;
     flex-direction: row;
     height: 53px;
     /* justify-content: space-between; */
     align-items: center; /* Add this line to vertically center items */
     padding: 0 30px;
+
   }
   
   .navbar a:not(:nth-child(7)) {

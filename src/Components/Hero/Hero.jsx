@@ -8,21 +8,57 @@ import Hackathon_guy from "../../Assets/Images/Hackathon-guy1.png";
 const Hero = () => {
 	return (
 		<>
+			{/* <div className="hero"></div> */}
+
 			<div className="hero">
 				<div className="hero1">
-					<img src={star3} alt="big-idea" />
-					<img src={purple_bg} alt="purple-bg" />
-					<img src={star4} alt="big-idea" />
+					<div className="hero-conx">
+						{/* <div className="hero1-bg"> */}
+						<img src={star3} alt="big-idea" />
+						<img src={purple_bg} alt="purple-bg" />
+						<img src={star4} alt="big-idea" />
+						{/* </div> */}
+					</div>
+
+					<div className="hero-cony">
+						<span>
+							<h3>Igniting a Revolution in HR Innovation</h3>
+
+							<img
+								className="hero-cony-img"
+								src={vector4}
+								alt="vector-ellipse"
+							/>
+						</span>
+					</div>
 				</div>
+
 				<div className="hero2">
-					<span>
-						<h3>Igniting a Revolution in HR Innovation</h3>
+					<div className="hero2-con1">
+						<div className="hero-con2">
+							<h3>
+								getlinked Tech <br /> Hackathon
+								<span className="hero-con2-span">1.0</span>
+							</h3>
+							<div className="hero-con3x">
+								<p>
+									Participate in getlinked tech Hackathon 2023 stand a chance to
+									win a Big prize
+								</p>
+								<button>Register</button>
+								<p className="pxxx">
+									<span>00M</span>
+									<span>00M</span>
+									<span>00M</span>
+								</p>
+							</div>
+						</div>
+					</div>
 
-						<img className="hero2-img" src={vector4} alt="vector-ellipse" />
-					</span>
-
-					<div className="hero2-sub">
-						<img src={Hackathon_guy} alt="big-idea" />
+					<div className="hero2-con2">
+						<div className="hero2-con2-sub">
+							<img src={Hackathon_guy} alt="big-idea" />
+						</div>
 					</div>
 				</div>
 			</div>

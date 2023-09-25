@@ -1,22 +1,44 @@
 .hero{
     display: flex;
-    flex-direction: row;
-    background-color: #140D27;
-    /* padding: 50px 0; */
+    flex-direction: column;
+    height: 90vh;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+/* FIRST ROW STYLING */
 .hero1{
     display: flex;
-    width: 50%;
-    justify-content: center;
-    /* background-image: url(../../Assets/Icons/Purple-Lens-Flare.svg); */
+    flex-direction: row;
+    /* width: 50%; */
 }
 
+.hero-conx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
 
-.hero1 img:nth-child(1){
+.hero-conx img:nth-child(1){
     position: relative;
     top: 20px;
-    left: 20px;
+    /* left: 20px; */
+    height: 18px;
+    animation: blink 0.5s infinite alternate;
+}
+
+.hero-conx img:nth-child(2){
+    position: relative;
+    /* top: 20px; */
+    /* left: 20px; */
+    height: 50px;
+    /* animation: blink 0.5s infinite alternate; */
+}
+
+.hero-conx img:nth-child(3){
+    position: relative;
+    /* top: 100px; */
+    /* left: 20px; */
     height: 18px;
     animation: blink 0.5s infinite alternate;
 }
@@ -30,70 +52,103 @@
     }
 }
 
-.hero1 img:nth-child(2){
-    height: 200px;
+/* 2ND ROW AND COLUMN STYLING */
+
+.hero2{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero2-con1{
+    width: 50%;
+    padding: 0px 20px 0 50px;
     
 }
 
-.hero1 img:nth-child(3){
-    position: relative;
-    top: 250px;
-    left: 20px;
-    height: 18px;
-    animation: blink 0.5s infinite alternate;
-}
-
-.hero2{
-    /* display: flex; */
+.hero2-con2{
     width: 50%;
-    /* width: 50%; */
-    /* padding: 30px; */
+    
 }
 
-.hero2-sub{
+.hero2-con2 img{
+    width: 400px;
+    
+}
+
+.hero-cony{
+    width: 50%;
+}
+.hero-cony h3{
+    color: #FFF;
+    font-family: Clash Display;
+    float: right;
     /* width: 500px; */
+    padding: 20px 25px 0 0;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    }
+
+    .hero-cony-img{
+        width: 170px;
+        float: right;
+        padding: 0 25px 0 0;
+      }
+
+.hero2-con1 h3{
+    /* text-align: center; */
+    font-size: 80px;
+    color: #FFF;
 }
 
-.hero2 h3{
-color: #FFF;
-font-family: Clash Display;
-float: right;
-/* width: 500px; */
-padding: 20px 25px 0 0;
-font-size: 28px;
-font-style: normal;
-font-weight: 700;
-}
-
-/* .hero2-sub span{
-    color: #D434FE;;
-}
-
-.hero2-sub p {
+.hero2-con1 p{
     color: #FFF;
     font-family: Montserrat;
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 20px;
+    /* width: 520px; */
+    padding-right: 50px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27.5px;
-} */
-.hero2 span{
-    /* float: right; */
-    /* padding: 20px 25px; */
+    /* line-height: 166%; */
 }
 
-.hero2-img{
-  /* width: 170px; */
-  float: right;
-  padding: 0 25px 0 0;
+.hero-con2-span{
+    color: #D434FE;
+}
+
+.hero-con2 button{
+    background: linear-gradient(270deg, #8F01FE 0%, #FF2674 97.24%);
+    color: #FFF;
+    font-size: 16px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 4px;
 }
 
 
-.hero2-sub img{
-    width: 500px;
-    height: 500px;
+.hero-conx span{
+    /* display: block; */
+    color: #FFF;
+    /* margin-top: 100px ; */
 }
+
+.pxxx{
+    color: #FFF;
+}
+
+@media screen and (max-width: 410px){
+    .hero-cony-img {
+        width: 130px;
+        float: right;
+        margin-right: 20px;
+        /* text-align: right; */
+        padding: 0 0px 0 0;
+    }  
+}
+
+
 
 @media screen and (max-width: 600px){
     .hero{
@@ -101,9 +156,60 @@ font-weight: 700;
         width: 100%;
     }
 
+    .hero1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .hero2-con1{
+        width: 100%;
+        /* justify-content: center; */
+        padding: 0px 5px;
+    }
+
+    .hero2-con1 p{
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .hero-con3x{
+        text-align: center;
+    }
+
+    .hero-cony h3 {
+        font-size: 20px;
+        color: #FFF;
+        float: none;
+        text-align: center;
+        padding: 20px 0px 0 0;
+    }
+
+    /* .hero-cony-img {
+        width: 170px;
+        float: right;
+        padding: 0 5px 0 0;
+    } */
+
+    .hero-conx{
+        /* display: block; */
+
+        width: 100%;
+        /* padding: 0 auto; */
+    }
+
+    .hero-cony{
+        width: 100%;
+    }
+
     .hero2{
         display: block;
         width: 100%;
+    }
+
+    .hero2-con2{
+        width: 100%;
+        
     }
 
     .hero2{
@@ -111,16 +217,11 @@ font-weight: 700;
         /* width: 100%; */
     }
 
-    .hero2-sub{
-        margin: auto;
-        /* padding: 0 25px; */
+    .hero2-con1 h3{
+        text-align: center;
+        font-size: 60px;
+        color: #FFF;
     }
-
-    .hero2 h3{
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        }
 
         .hero2 span{
             float: none;

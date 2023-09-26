@@ -2,6 +2,7 @@ import Body1 from "../../Components/Body/Body1";
 import Body2 from "../../Components/Body/Body2";
 import Body3 from "../../Components/Body/Body3";
 import Body4 from "../../Components/Body/Body4";
+import Body8 from "../../Components/Body/Body8";
 import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
 import Hero from "../../Components/Hero/Hero";
@@ -20,6 +21,7 @@ const Landing = () => {
 			<Body4 />
 			{/* <Faq /> */}
 			{/* <Privacy /> */}
+			<Body8 />
 			<Footer />
 		</>
 	);

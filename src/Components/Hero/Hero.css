@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     height: 90vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* FIRST ROW STYLING */
@@ -165,7 +166,7 @@
     .hero2-con1{
         width: 100%;
         /* justify-content: center; */
-        padding: 0px 5px;
+        padding: 0px 0px;
     }
 
     .hero2-con1 p{

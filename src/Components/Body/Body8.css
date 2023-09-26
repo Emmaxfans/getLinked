@@ -1,6 +1,6 @@
 .partner{
-padding: 3% 5%;
-height: 100vh;
+padding: 5% 5%;
+height: 80vh;
 border-top: 1px;
 border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -30,7 +30,7 @@ line-height: 27.5px; /* 196.429% */
 
 .partner img{
     width: 99.9%;
-    height: 60%;
+    height: 70%;
     /* padding: 50x; */
 }
 

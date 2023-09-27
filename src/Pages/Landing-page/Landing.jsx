@@ -20,8 +20,8 @@ const Landing = () => {
 			<Body3 />
 			<Body4 />
 			{/* <Faq /> */}
-			{/* <Privacy /> */}
 			<Body8 />
+			<Privacy />
 			<Footer />
 		</>
 	);

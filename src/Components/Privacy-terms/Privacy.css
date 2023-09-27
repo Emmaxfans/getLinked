@@ -1,0 +1,147 @@
+.privacy{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    padding: 2.5% 5% 2.5% 10%;
+}
+
+.privacy1{
+    width: 50%;
+}
+
+.privacy1-sub1{
+    display: flex;
+}
+
+.privacy1-sub1 span{
+    color: #D434FE;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.privacy1-sub1 h3{
+    color: #FFF;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.privacy1-sub1 img{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    width: 18px;
+height: 18px;
+}
+
+.privacy1-sub2{
+    display: flex;
+    padding: 20px;
+}
+
+.privacy1-sub2 p{
+    color: rgba(255, 255, 255, 0.75);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 17.5px;
+}
+
+.privacy1-sub2 img{
+    position: relative;
+    top: 15px;
+    left: 200px;
+    width: 18px;
+height: 18px;
+}
+
+.sub-p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 100.4%;
+}
+
+
+.privacy1-sub3{
+    
+border: 1px solid #D434FE;
+background: rgba(217, 217, 217, 0.03);
+}
+
+.privacy1-sub3-div{
+    padding: 20px 50px;
+}
+
+.privacy1-sub3 p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.2%;
+    }
+
+    .privacy1-sub3 h2{
+        color: #D434FE;
+        font-family: Montserrat;
+        padding-top: 10px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130.2%;
+        }
+
+        .marked{
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+
+        .marked p{
+            padding-left: 10px;
+        }
+
+        .privacy1-sub3-div2{
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .privacy1-sub3-div2 button{
+            background-color: #D434FE;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+
+/* 2ND ROW */
+
+.privacy2{
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .privacy{
+        display: block;
+        height: auto;
+        /* width: 100%; */
+        padding: 20px 50px;
+    }
+
+    .privacy1{
+        width: 100%;
+    }
+
+    .privacy2{
+        width: 100%;
+    }
+}

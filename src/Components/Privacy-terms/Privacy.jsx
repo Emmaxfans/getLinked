@@ -2,6 +2,8 @@ import "./Privacy.css";
 import star1 from "../../Assets/Icons/star1.svg";
 import star3 from "../../Assets/Icons/star3.svg";
 import marked from "../../Assets/Icons/marked.svg";
+// import lock1 from "../../Assets/Icons/lock.svg";
+// import lock2 from "../../Assets/Images/lock.png";
 
 const Privacy = () => {
 	return (
@@ -21,10 +23,12 @@ const Privacy = () => {
 						<img src={star3} alt="star" />
 					</div>
 
-					<p className="sub-p">
-						Below are our privacy & policy, which outline a lot of goodies. it’s
-						our aim to always take of our participant
-					</p>
+					<div className="sub-p">
+						<p>
+							Below are our privacy & policy, which outline a lot of goodies.
+						</p>
+						<p>it’s our aim to always take of our participant</p>
+					</div>
 
 					<div className="privacy1-sub3">
 						<div className="privacy1-sub3-div">
@@ -50,8 +54,8 @@ const Privacy = () => {
 							<div className="marked">
 								<img src={marked} alt="check-mark" />
 								<p>
-									The Standard License grants you a non-exclusive right to
-									navigate and register for our event
+									You are licensed to use the item available at any free source
+									sites, for your project developement
 								</p>
 							</div>
 							<div className="privacy1-sub3-div2">
@@ -60,7 +64,10 @@ const Privacy = () => {
 						</div>
 					</div>
 				</div>
-				<div className="privacy2">CONTAINER 2</div>
+				<div className="privacy2">
+					{/* <img src={lock1} alt="lock1" /> */}
+					{/* <img src={lock2} alt="lock2" /> */}
+				</div>
 			</div>
 		</>
 	);

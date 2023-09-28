@@ -94,7 +94,7 @@ font-weight: 700;
 }
 
 .bodyd2 img:nth-child(3){
-    width: 300px;
+    width: 500px;
     margin: auto;
   
 }
@@ -157,5 +157,10 @@ font-weight: 700;
             left: 80px;
             height: 16px;
             /* animation: blink 0.5s infinite alternate; */
+        }
+        .bodyd2 img:nth-child(3){
+            width: 250px;
+            margin: auto;
+          
         }
 }

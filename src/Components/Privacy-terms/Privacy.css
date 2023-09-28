@@ -144,4 +144,12 @@ background: rgba(217, 217, 217, 0.03);
     .privacy2{
         width: 100%;
     }
+
+    .privacy1-sub2 img {
+        position: relative;
+        top: 45px;
+        left: 40px;
+        /* width: 18px; */
+        /* height: 18px; */
+    }
 }

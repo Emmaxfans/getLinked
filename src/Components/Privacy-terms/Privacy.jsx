@@ -2,8 +2,8 @@ import "./Privacy.css";
 import star1 from "../../Assets/Icons/star1.svg";
 import star3 from "../../Assets/Icons/star3.svg";
 import marked from "../../Assets/Icons/marked.svg";
-// import lock1 from "../../Assets/Icons/lock.svg";
-// import lock2 from "../../Assets/Images/lock.png";
+import lock1 from "../../Assets/Icons/lock.svg";
+import lock2 from "../../Assets/Icons/lock2.svg";
 
 const Privacy = () => {
 	return (
@@ -65,8 +65,18 @@ const Privacy = () => {
 					</div>
 				</div>
 				<div className="privacy2">
-					{/* <img src={lock1} alt="lock1" /> */}
-					{/* <img src={lock2} alt="lock2" /> */}
+					<div className="privacy2-sub1">
+						<img src={star1} alt="star" />
+						<img src={lock1} alt="lock2" />
+						<img src={star1} alt="star" />
+						{/* <img src={lock2} alt="lock2" /> */}
+					</div>
+
+					<div className="privacy2-sub2">
+						<img src={star1} alt="star" />
+						<img src={lock2} alt="lock2" />
+						<img src={star1} alt="star" />
+					</div>
 				</div>
 			</div>
 		</>

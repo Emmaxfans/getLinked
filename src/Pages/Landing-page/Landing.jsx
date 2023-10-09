@@ -7,13 +7,17 @@ import Faq from "../../Components/Faq/Faq";
 import Footer from "../../Components/Footer/Footer";
 import Hero from "../../Components/Hero/Hero";
 import Nav from "../../Components/Navbar/Nav";
+import Nav1 from "../../Components/Navbar/Nav1";
+import Preloader from "../../Components/Preloader/Preloader";
 import Privacy from "../../Components/Privacy-terms/Privacy";
 import "./Landing.css";
 
 const Landing = () => {
 	return (
 		<>
+			{/* <Preloader /> */}
 			<Nav />
+			{/* <Nav1 /> */}
 			<Hero />
 			<Body1 />
 			<Body2 />

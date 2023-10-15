@@ -4,6 +4,7 @@ import star3 from "../../Assets/Icons/star3.svg";
 import star4 from "../../Assets/Icons/star4.svg";
 import vector4 from "../../Assets/Icons/vector4.svg";
 import Hackathon_guy from "../../Assets/Images/Hackathon-guy1.png";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
 	return (
@@ -22,14 +23,24 @@ const Hero = () => {
 
 					<div className="hero-cony">
 						<span>
-							<h3>Igniting a Revolution in HR Innovation</h3>
-
-							<img
-								className="hero-cony-img"
-								src={vector4}
-								alt="vector-ellipse"
-							/>
+							<h3>
+								<Typewriter
+									words={["Igniting a Revolution in HR Innovation"]}
+									loop={0}
+									cursor
+									cursorStyle="|"
+									typeSpeed={70}
+									deleteSpeed={50}
+									delaySpeed={1000}
+								/>
+							</h3>
 						</span>
+						{/* <h3>Igniting a Revolution in HR Innovation</h3> */}
+						<img className="hero-cony-img" src={vector4} alt="vector-ellipse" />
+
+						{/* <span>
+							<h3>Igniting a Revolution in HR Innovation</h3>
+						</span> */}
 					</div>
 				</div>
 

@@ -27,8 +27,8 @@ const Body1 = () => {
 							creating solutions that can change the world, that's what we're
 							all about!
 						</p>
+						<img src={star4} alt="big-idea" />
 					</div>
-					<img src={star4} alt="big-idea" />
 				</div>
 			</div>
 		</div>

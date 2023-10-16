@@ -147,111 +147,62 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 359px){
     .hero-cony-img {
+        display: none;
         width: 130px;
         float: right;
         margin-right: 20px;
         padding: 0;
-    }  
+    } 
+    
+    
+    .hero-cony h3 {
+        font-size: 15px;
+        color: #FFF;
+        text-align: center;
+        float: none;
+        padding: 30px 0;
+        margin-right: 0;
+    }
 }
 
-@media only screen  and (max-width: 920px){
+@media screen and (min-width: 360px) and (max-width: 767px){
     .hero-cony-img {
         display: none;
-        position: absolute;
-        top: 12%;
-        left: 70%;
+        width: 130px;
         float: right;
+        margin-right: 20px;
         padding: 0;
+    } 
+    
+    
+    .hero-cony h3 {
+        font-size: 20px;
+        color: #FFF;
+        text-align: center;
+        float: none;
+        padding: 30px 0;
+        margin-right: 0;
     }
 }
 
-
-/* @media screen and (max-width: 600px){
-    .hero{
-        display: block;
-        width: 100%;
-    }
-
-    .hero1{
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-    }
-
-    .hero-typewriter{
-        display: none;
-    }
-
-    .hero-mobile{
-        display: block;
-    }
-
-    .hero2-con1{
-        width: 100%;
-        padding: 0px 0px;
-    }
-
-    .hero2-con1 p{
-        text-align: center;
-        padding-right: 0px;
-    }
-
-    .hero-con3x{
-        text-align: center;
+@media screen  and (min-width: 768px) and (max-width: 920px){
+    .hero-cony-img {
+        top: 150px;
+        left: 70%;
+        float: right;
     }
 
     .hero-cony h3 {
         font-size: 20px;
         color: #FFF;
-        float: none;
-        text-align: center;
-        padding: 20px 0px 0 0;
+        /* text-align: center; */
+        float: right;
+        padding: 30px 0;
+        margin-right: 8%;
     }
-
-    .hero-conx{
-        width: 100%;
-    }
-
-    .hero-cony{
-        width: 100%;
-    }
-
-    .hero2{
-        display: block;
-        width: 100%;
-    }
-
-    .hero2-con2{
-        width: 100%;
-        
-    }
-
-    .hero2{
-        display: block;
-    }
-
-    .hero2-con1 h3{
-        text-align: center;
-        font-size: 60px;
-        color: #FFF;
-    }
-
-        .hero2 span{
-            float: none;
-            text-align: center;
-        }
-
-  .hero2-con2 img{
-    width: 320px;
-    
 }
-.hero2-sub img{
-    width: 300px;
-    height: 300px;
-}
-} */
 
 @media screen and (max-width: 920px){
     .hero{
@@ -266,7 +217,7 @@
     }
 
     .hero-typewriter{
-        display: none;
+        /* display: none; */
     }
 
     .hero-mobile{
@@ -293,12 +244,13 @@
         margin: 30px 0;
     }
 
-    .hero-cony h3 {
+    /* .hero-cony h3 {
         font-size: 20px;
         color: #FFF;
-        float: right;
-        padding: 0;
-    }
+        text-align: center;
+        float: none;
+        padding: 30px 0;
+    } */
 
     .hero-conx{
         width: 100%;
@@ -331,7 +283,7 @@
 
     .hero2-con1 h3{
         text-align: center;
-        font-size: 60px;
+        font-size: 45px;
         color: #FFF;
     }
 

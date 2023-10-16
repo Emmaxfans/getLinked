@@ -23,9 +23,9 @@ const Hero = () => {
 
 					<div className="hero-cony">
 						<span>
-							<h3 className="hero-mobile">
+							{/* <h3 className="hero-mobile">
 								Igniting a Revolution in HR Innovation
-							</h3>
+							</h3> */}
 							<h3 className="hero-typewriter">
 								<Typewriter
 									words={["Igniting a Revolution in HR Innovation"]}
@@ -34,7 +34,7 @@ const Hero = () => {
 									cursorStyle="|"
 									typeSpeed={70}
 									deleteSpeed={50}
-									delaySpeed={1000}
+									delaySpeed={4000}
 								/>
 							</h3>
 						</span>

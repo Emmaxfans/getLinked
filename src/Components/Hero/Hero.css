@@ -152,13 +152,23 @@
         width: 130px;
         float: right;
         margin-right: 20px;
-        /* text-align: right; */
-        padding: 0 0px 0 0;
+        padding: 0;
     }  
 }
 
+@media only screen  and (max-width: 920px){
+    .hero-cony-img {
+        display: none;
+        position: absolute;
+        top: 12%;
+        left: 70%;
+        float: right;
+        padding: 0;
+    }
+}
 
-@media screen and (max-width: 600px){
+
+/* @media screen and (max-width: 600px){
     .hero{
         display: block;
         width: 100%;
@@ -180,7 +190,6 @@
 
     .hero2-con1{
         width: 100%;
-        /* justify-content: center; */
         padding: 0px 0px;
     }
 
@@ -201,17 +210,8 @@
         padding: 20px 0px 0 0;
     }
 
-    /* .hero-cony-img {
-        width: 170px;
-        float: right;
-        padding: 0 5px 0 0;
-    } */
-
     .hero-conx{
-        /* display: block; */
-
         width: 100%;
-        /* padding: 0 auto; */
     }
 
     .hero-cony{
@@ -230,7 +230,6 @@
 
     .hero2{
         display: block;
-        /* width: 100%; */
     }
 
     .hero2-con1 h3{
@@ -242,15 +241,7 @@
         .hero2 span{
             float: none;
             text-align: center;
-            /* padding: 10px 10px; */
         }
-
-        
-.hero2-img{
-    /* width: 150px; */
-    /* float: right; */
-    /* padding: 0 25px 0 0; */
-  }
 
   .hero2-con2 img{
     width: 320px;
@@ -260,10 +251,96 @@
     width: 300px;
     height: 300px;
 }
-}
+} */
 
-@media screen and (min-width: 601px) and (max-width: 820px){
-.hero-mobile{
-    /* display: block; */
+@media screen and (max-width: 920px){
+    .hero{
+        display: block;
+        width: 100%;
+    }
+
+    .hero1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .hero-typewriter{
+        display: none;
+    }
+
+    .hero-mobile{
+        display: block;
+    }
+
+    .hero2-con1{
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .hero2-con1 p{
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .hero-con3x{
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .hero-con2 button {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .hero-cony h3 {
+        font-size: 20px;
+        color: #FFF;
+        float: right;
+        padding: 0;
+    }
+
+    .hero-conx{
+        width: 100%;
+    }
+
+    .hero-cony{
+        width: 100%;
+    }
+
+    .hero2{
+        display: block;
+        width: 100%;
+    }
+
+    .hero2-con2{
+        width: 100%;   
+    }
+
+    .hero2-con2 img{
+        width: 100%;   
+    }
+
+    .hero2-con2-sub{
+        text-align: center; 
+    }
+
+    .hero2{
+        display: block;
+    }
+
+    .hero2-con1 h3{
+        text-align: center;
+        font-size: 60px;
+        color: #FFF;
+    }
+
+        .hero2 span{
+            float: none;
+            text-align: center;
+        }
+.hero2-sub img{
+    width: 300px;
+    height: 300px;
 }
 }

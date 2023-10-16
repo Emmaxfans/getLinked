@@ -23,7 +23,10 @@ const Hero = () => {
 
 					<div className="hero-cony">
 						<span>
-							<h3>
+							<h3 className="hero-mobile">
+								Igniting a Revolution in HR Innovation
+							</h3>
+							<h3 className="hero-typewriter">
 								<Typewriter
 									words={["Igniting a Revolution in HR Innovation"]}
 									loop={0}

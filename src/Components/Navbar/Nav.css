@@ -9,10 +9,10 @@
     /* background-color: #333; */
     display: flex;
     flex-direction: row;
-    height: 53px;
+    /* height: 53px; */
     /* justify-content: space-between; */
     align-items: center; /* Add this line to vertically center items */
-    padding: 0 30px;
+    padding: 10px 30px;
 
   }
   
@@ -61,11 +61,11 @@
   }
   
   /* Mobile styles */
-  @media screen and (max-width: 600px) {
+ /* @media screen and (max-width: 600px) {
     .navbar {
         flex-direction: row;
         justify-content: space-between;
-        height: auto;
+        height: auto; 
         padding: 20px 20px;
     }
   
@@ -79,8 +79,8 @@
     }
   
     .navbar a.icon {
-      display: block; /* Show the toggle button */
-      align-self: flex-end; /* Align the button to the right */
+      display: block;
+      align-self: flex-end;
       cursor: pointer;
     }
   
@@ -110,6 +110,89 @@
     }
 
     @keyframes fade {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+
+    .navbar a:nth-child(3) {
+        margin-left: 0;
+    }
+
+    .navbar a:nth-child(7) {
+        margin-left: 0;
+    }
+  
+    .btn-nav {
+        font-size: 18px;
+        height: 65px;
+        width: 50%;
+        font-size: 30px;
+        margin: 10px 0;
+        padding: 0;
+    }
+  
+    #getlinkedicon {
+        padding: 20px 0 0 0;
+    }
+  } */
+
+
+  @media screen and (max-width: 920px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        /* height: 100%;  */
+        padding: 20px 20px;
+    }
+  
+    .navbar a:not(.icon) {
+      display: none;
+    }
+
+    .icon{
+        display: block;
+        width: 5%;
+        margin-top: -5%;   
+    }
+  
+    .navbar a.icon {
+      display: block;
+      align-self: flex-end;
+      cursor: pointer;
+    }
+  
+    .navbar.responsive {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%; 
+        display: block;
+        padding-top: 50px;
+        z-index: 10;
+    }
+  
+    .navbar.responsive .icon {
+      display: block;
+    }
+  
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      background-color: #140D27;
+      font-size: 30px;
+      text-align: left;
+      padding: 25px;
+      margin-top: 20px;
+      animation: dropdown 0.5s ease;
+      z-index: 1111;
+    }
+
+    @keyframes dropdown {
       0% {
           opacity: 0;
       }

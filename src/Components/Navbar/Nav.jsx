@@ -13,7 +13,7 @@ const Nav = () => {
 		if (isOpen) {
 			getlinkedIcon.style.display = "block";
 		} else {
-			// getlinkedIcon.style.display = "none";
+			getlinkedIcon.style.display = "none";
 		}
 	};
 

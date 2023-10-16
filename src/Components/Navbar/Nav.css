@@ -15,6 +15,14 @@
     padding: 10px 30px;
 
   }
+
+  .active-link:hover{
+    color: rgb(197, 33, 230);
+  }
+
+  .navbar a:not(:nth-child(7)):hover {
+    color: rgb(197, 33, 230);
+  }
   
   .navbar a:not(:nth-child(7)) {
     color: rgba(255, 255, 255, 1);

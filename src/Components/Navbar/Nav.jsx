@@ -29,7 +29,9 @@ const Nav = () => {
 						className="icon"
 						onClick={toggleNavbar}
 					/>
-					<a href="#">Timeline</a>
+					<a className="active-link" href="#">
+						Timeline
+					</a>
 					<a href="#">Overview</a>
 					<a href="#">FAQs</a>
 					<a href="#">Contact</a>

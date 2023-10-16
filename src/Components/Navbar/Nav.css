@@ -165,7 +165,7 @@
     .icon{
         display: block;
         width: 5%;
-        margin-top: -5%;   
+        /* margin-top: -5%;    */
     }
   
     .navbar a.icon {

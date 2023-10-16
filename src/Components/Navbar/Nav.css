@@ -16,10 +16,6 @@
 
   }
 
-  .active-link:hover{
-    color: rgb(197, 33, 230);
-  }
-
   .navbar a:not(:nth-child(7)):hover {
     color: rgb(197, 33, 230);
   }
@@ -51,11 +47,16 @@
   
   .btn-nav {
     background-color: rgb(197, 33, 230);
+    color: #140D27;
     height: 40px;
     width: 90px;
     border: none;
     border-radius: 5px;
     /* padding: 0 15px; */
+  }
+
+  .btn-nav:hover{
+    color: #ffffff;
   }
   
   #getlinkedicon {
